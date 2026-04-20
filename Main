@@ -1,0 +1,186 @@
+\documentclass[a4paper, oneside]{book}
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.eps,.pdf,.png}
+\usepackage[french]{babel}
+\usepackage[margin=2cm]{geometry}
+\usepackage{array}
+\usepackage{makeidx}
+\makeindex
+\usepackage[columns = 1]{idxlayout}
+\begin{document}
+\setlength{\hoffset}{0pt}
+\setlength{\voffset}{0pt}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\evensidemargin}{0pt}
+\setlength{\headheight}{0pt}
+\setlength{\headsep}{0pt}
+\setlength{\marginparwidth}{0pt}
+\setlength{\marginparsep}{0pt}
+
+\setlength{\topmargin}{-1cm}
+\setlength{\parskip}{2.5ex}
+\pagestyle{plain}
+\begin{titlepage}{
+\centering
+\parbox{\textwidth}{
+    \includegraphics[width=0.2\linewidth]{image_2026-04-20_163357431.png}
+    \hfill
+    \raisebox{-0.5cm}{\includegraphics[width=0.2\linewidth]{image_2026-04-20_164021411.png}}
+    \hfill
+    \includegraphics[width=0.2\linewidth]{image_2026-04-20_164835496.png}
+\par}
+
+\parbox{\textwidth}{\centering
+\LARGE{\textbf{\\Université de Poitiers}}\\
+\Large{\textbf{UFR} Sciences fondamentales et appliquées}\\
+\large{\textbf{L3 génie biologique et informatique}}\par}
+
+\parbox{\textwidth}{\centering
+{\fontsize{48}{48}\selectfont\textbf{\textit{Guide de création de personnage Donjons et Dragons en 5e edition}}}\vspace*{1.5ex}}\vspace{\stretch{1}}\par
+
+\parbox{\textwidth}{\centering
+    \includegraphics[width=0.6\linewidth]{image_2026-04-20_172617491.png}
+    \label{Page de couvertue du Player's handbook de la 5e édition de Donjons et Dragons}
+}
+\parbox{\textwidth}{\centering
+\raisebox{-2cm}{\fontsize{20}{20}\selectfont\textbf{Rédigé par : \textit{ Alix Huyghe}}}
+}
+\end{titlepage}}
+\tableofcontents
+\setcounter{tocdepth}{1}
+\part{\large{Introduction}}
+\chapter{Présentation de la licence donjons et dragons}
+\section*{}
+\textwidth{
+\Large{Donjons et Dragons (DnD) est le pionnier mondial du jeu de rôle sur table, un univers de high fantasy devenu une icône incontournable de la culture populaire depuis sa création en 1974 \index{Création de donjon et dragons}. Au cœur de cette expérience, les joueurs incarnent des héros aux capacités variées tandis qu'un Maître du Donjon orchestre une narration partagée, où le destin des personnages se décide autant par l'ingéniosité des participants que par le hasard des lancers de dés, notamment le célèbre dé à vingt faces (d20).\\ Forte de plusieurs décennies d'évolution, la licence ne se limite plus aux manuels de règles :\\ elle s'étend aujourd'hui à travers des jeux vidéo cultes comme Baldur's Gate, des films à gros budget et des séries, s'imposant comme une véritable boîte à outils de l'imaginaire capable de transformer n'importe quelle table d'amis en un théâtre d'aventures épiques.}}
+
+\chapter{Présentation du système de personnage donjons et dragons}
+\textwidth{\Large
+Dans la cinquième édition de Donjons et Dragons, la création d'un personnage repose sur un équilibre entre identité narrative et mécanique de jeu, articulé autour du triptyque peuple, classe et historique. Le joueur choisit d'abord son espèce (comme un elfe ou un nain), qui lui confère des traits innés, puis sa classe (tel que guerrier, magicien ou clerc), laquelle définit ses capacités de combat, ses sorts et sa progression globale. Six caractéristiques fondamentales — Force, Dextérité, Constitution, Intelligence, Sagesse et Charisme — quantifient les aptitudes du héros et déterminent les bonus appliqués aux tests de dés. Ce système est complété par un historique qui ancre le personnage dans le monde en lui offrant des compétences sociales et des traits de personnalité, permettant ainsi de créer un aventurier unique, prêt à évoluer par le biais d'un système de niveaux fluide et accessible.\par}
+
+\part{\large{Création de personnages}}
+\chapter{Choix de la classe}
+\section{Les archétype de classes}
+\textwidth{\Large
+Les classes de Donjons et Dragons se divisent principalement en trois catégories définissant leur approche du combat et des défis. Les classes martiales (comme le Guerrier ou le Barbier) comptent sur leur puissance physique, leur maîtrise des armes et leur endurance pour dominer le champ de bataille sans dépendre de la magie. À l’opposé, les lanceurs de sorts intégraux (tels que le Magicien ou le Clerc) puisent dans des réserves d'énergie mystique pour déclencher des effets dévastateurs ou utilitaires, leur puissance croissant de manière exponentielle avec l'accès à des sorts de haut niveau. Enfin, les semi-lanceurs de sorts (comme le Paladin ou le Rôdeur) représentent l'équilibre parfait : ils combinent une solide compétence au combat au corps à corps avec une progression magique plus lente, utilisant leurs sorts pour renforcer leurs attaques physiques ou soutenir leurs alliés dans les moments critiques.}
+\section{Les 13 classes}
+\textwidth{\Large
+La 5E édition de Donjons et Dragons définit 13 classes qui se répartissent de la manière suivante dans les 3 catégories vues précédemment}\\
+\par
+\begin{tabular}{|c|c|c|}
+\hline
+Classes Martiales & Semi-lanceurs de sorts & Lanceurs de sorts (Full Casters) \\ \hline
+Guerrier & Paladin & Magicien \\ \hline
+Barbare & Rôdeur & Clerc \\ \hline
+Roublard & Artificier & Druide \\ \hline
+Moine & & Barde \\ \hline
+& & Ensorceleur \\ \hline
+& & Occultiste \\ \hline
+\end{tabular}
+\index{Tableau de repartition des classes}
+\par
+\par
+\textwidth{\Large Description courte de chaque classe :\\}
+\textwidth{\large\begin{itemize}
+    \item \textbf{Barbare} : Un guerrier sauvage qui utilise sa Rage pour encaisser des dégâts phénoménaux et frapper avec une violence brute.
+    \item \textbf{Guerrier} : Le maître des armes et des armures, extrêmement polyvalent, capable d'attaquer plusieurs fois par tour grâce à son Cri de guerre.
+    \item \textbf{Moine} : Un combattant agile qui utilise son énergie intérieure (Ki) pour frapper à mains nues et se déplacer à une vitesse fulgurante.
+    \item \textbf{Roublard} : Spécialiste de la discrétion et de la précision, il inflige des dégâts massifs grâce à son Attaque sournoise et brille hors combat par ses nombreuses compétences. \index{Tableau récapitlatif des classes!Classes martiales}
+    \item \textbf{Paladin} : Un guerrier sacré lié par un serment, capable de soigner ses alliés et de pulvériser ses ennemis avec son Châtiment divin.
+    \item \textbf{Rôdeur} : Un traqueur des étendues sauvages, expert en survie et en tir à l'arc, qui utilise la magie de la nature pour chasser ses proies.
+    \item \textbf{Artificer} : Un inventeur de génie qui insuffle de la magie dans des objets du quotidien pour créer des infusions magiques et des gadgets de soutien. \index{Tableau récapitlatif des classes!Classes Semi-lanceurs de sort}
+    \item \textbf{Barde} : Un artiste polyvalent dont les récits et la musique inspirent ses alliés (Inspiration bardique) et perturbent l'esprit de ses adversaires.
+    \item \textbf{Clerc} : Un serviteur divin maniant la magie sacrée pour soigner, protéger ou invoquer la colère de sa divinité tout en portant une armure solide.
+    \item \textbf{Druide} : Un gardien de l'équilibre capable de commander aux éléments et de se transformer en bête sauvage grâce à sa Forme sauvage.
+    \item \textbf{Ensorceleur} : Un mage dont la magie est innée, issue d'une lignée magique, lui permettant de manipuler ses sorts via la Métamagie.
+    \item \textbf{Magicien} : Un érudit qui étudie les arcanes, possédant le plus vaste répertoire de sorts et capable de s'adapter à toutes les situations grâce à son livre de sorts.
+    \item \textbf{Occultiste}: Un lanceur de sorts lié par un pacte à une entité puissante, s'appuyant sur des pouvoirs mystiques uniques et le sortilège dévastateur Décharge occulte. \index{Tableau récapitlatif des classes!Classes Lanceurs de sort}
+\end{itemize}}
+\section{Les classes "Homebrew"}
+\textwidth{\Large 
+Les classes « Homebrew » désignent du contenu de jeu créé par la communauté plutôt que par les concepteurs officiels de Wizards of the Coast. Ce terme, que l'on pourrait traduire par « fait maison », regroupe des mécaniques originales permettant d'explorer des thèmes non couverts par les manuels standards, comme un nécromancien spécialisé ou un alchimiste complexe. Si ces classes offrent une liberté narrative immense et permettent de personnaliser l'expérience de jeu, elles nécessitent impérativement l'approbation du Maître du Donjon : leur équilibrage par rapport aux classes officielles peut varier grandement, et leur intégration doit s'assurer de ne pas éclipser les autres héros autour de la table.}
+\chapter{Choix de la race}
+\section*{\Large 
+Le choix de la race (ou de l'espèce) constitue le socle biologique et culturel de votre personnage, définissant non seulement son apparence physique, mais aussi ses prédispositions naturelles. Au-delà de l’aspect esthétique, ce choix octroie des capacités spéciales uniques, telles que la vision dans le noir des Elfes, la résistance légendaire des Nains ou la polyvalence innée des Humains. Dans les versions les plus récentes de la 5e édition, la race définit également des traits culturels et des aptitudes innées qui influencent la manière dont le monde perçoit votre héros. C'est un pilier narratif majeur qui permet d'ancrer le personnage dans l'histoire de l'univers, tout en offrant des bonus mécaniques qui complètent souvent les aptitudes de la classe choisie.}
+Il est important de noter que tout comme les classes "Homebrew" il est tout a fait possible de jouer des races "homebrew"
+
+\section*{\Large Le guide des joueurs fournit plusieurs races jouables : }
+\begin{description}\large
+    \item[Humain :] Le plus polyvalent, +1 à toutes les statistiques
+    \item[ Elfe :] Haut-elfe, Elfe des bois, Elfe noir/Drow
+    \item[ Nain :] Nain des collines, Nain des montagnes
+    \item[ Halfelin :] Pied-léger, Robuste
+    \item[ Drakéide :] Descendant des dragons
+    \item[ Gnome :] Gnome des forêts, Gnome des roches
+    \item[ Demi-elfe :] Mi-elfe, mi-humain
+    \item[ Demi-Orque :] Puissant et résistant
+    \item[ Tieffelin :] Marqué par une ascendance infernale
+\end{description}
+\section*{\Large D'autres livres officiels fournissent d'autres races jouables : }
+\begin{description}\large
+    \item[Forgelier :] être artificiel construit pour la guerre \cite{eberron2019}
+    \item[ Kenku :] Peuple corbeau \cite{volo2016}
+    \item[ Aasimar :] Être céleste \cite{volo2016}
+    \item[ Golitah :] Géant des montagnes \cite{volo2016}
+    \item[ Triton :] Peuple aquatique \cite{volo2016}
+\end{description}
+\index{Tableaux récapitulatifs d'une portion des races jouables}
+\par
+
+\chapter{Choix de l'historique}
+\section*{\Large
+L'historique représente le passé de votre personnage avant qu'il ne devienne un aventurier ; c'est le lien narratif qui explique d'où il vient et comment il a acquis ses premières expériences de vie. Contrairement à la classe qui définit vos capacités de combat, l'historique enrichit votre identité par des éléments de roleplay et des avantages mécaniques concrets : il octroie généralement la maîtrise de deux compétences, ainsi que des langages supplémentaires ou la manipulation d'outils (comme les outils de voleur ou les instruments de musique). Chaque historique propose également une aptitude unique, souvent liée à votre réseau social ou à votre réputation, permettant par exemple de trouver un logement gratuit dans un temple ou de posséder des contacts secrets dans la pègre. C’est l’outil idéal pour ancrer votre héros dans l'univers de jeu et donner des pistes au Maître du Donjon pour intégrer votre passé à l'intrigue.}
+\par
+
+\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{7cm}|}
+\hline
+Historique & Maîtrise des compétences & Outil ou langue & Aptitude spéciale \\ \hline
+Acolyte     & Intuition, Religion & Deux langues au choix & Abri du fidèle : Vous pouvez recevoir des soins et du soutien gratuit dans les temples de votre foi. \\ \hline
+ Charlatan    & Escroquerie, Escamotage & Kit de déguisement, Kit de contrefaçon & Fausse identité : Vous possédez une seconde identité complète et documentée qui semble authentique.  \\ \hline
+  Criminel   & Discrétion, Tromperie & Jeu de cartes, Outils de voleur & Contact criminel : Vous avez un contact fiable qui peut vous fournir des informations sur le monde souterrain. \\ \hline
+Ermite& Médecine, Religion & Une langue au choix & Découverte : Vous détenez un secret unique ou une vérité cosmique que personne d'autre ne connaît. \\ \hline
+ Héros du Peuple    & Dressage, Survie &  Outils d'artisan, Véhicules (terre) & Hospitalité rurale : Les paysans vous cachent et vous protègent volontiers contre la loi ou les menaces. \\ \hline
+Soldat     & Athlétisme, Intimidation & Un jeu de société, Véhicules (terre) & Grade militaire : Les soldats de votre ancienne organisation vous obéissent s'ils sont de grade inférieur. \\ \hline
+\end{tabular}
+
+\chapter{La fiche de personnage}
+\section*{Une fois que vous avez choisit votre Classe, Race et Historique, il ne vous reste qu'a noter cela sur votre fiche personnage !}
+
+\textwidth{\Large
+Choisissez le nom de votre personnage, son age et autres information, réflechissez a son histoire, ses amis, ses ennemis, ses défauts et ses idéaux : De quoi donner vie a votre personnage et laissez la possibilié a votre maître du jeu de tisser une histoire autour de lui\ldots
+}\par
+\textwidth{\Large
+Il ne vous reste plus qu'a lancer les dés pour déterminer les statistiques de votre personnage !\\
+Il y a 6 statistiques au total : Force, Dextérité, Constitution, Intelligence, Sagesse, Charisme.\\
+Pour chaque caractéristique, lancez 4 dés a 6 faces, enlever le résultat le plus faible et faite la somme des 3 autres\\
+Il existe un grand nombre d'autres méthodes pour déterminer les caractéristiques de votre personnage, voyez avec votre maitre du jeu celle qui vous correspond le mieux !}\par
+
+\textwidth{\Large
+Et voila, votre personnage est prêt à partir a l'aventure, pensez a bien choisir l'équipement de départ parmis ce que vous offre votre classe et votre historique\\
+}\par
+{\LARGE
+\textbf{Il ne tient désormais plus qu'a vous d'écrire votre légende\ldots} \\
+\textit {Bon courage aventurier et puisse la chance être de votre coté !}
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{image_2026-04-20_233824204.png}
+    \caption{Exemple de fiche de personnage}
+    \label{fig:placeholder}
+\end{figure}
+
+
+\part{Conclusion}
+\par
+\vspace*{\vfill}
+\section*{Merci d'avoir suivi ce petit guide de création de personnage}
+\textwidth{\Large 
+La création d’un personnage dans la 5e édition de Donjons et Dragons est un équilibre subtil entre mécanique de jeu et narration. Comme nous l'avons vu, le choix d'une classe définit le rôle stratégique au sein du groupe, tandis que la race et l'historique apportent la profondeur culturelle et personnelle nécessaire pour ancrer le héros dans l'univers. Que l'on opte pour l'efficacité pure d'un guerrier optimisé ou pour la richesse narrative d'un barde au passé mystérieux, l'essentiel réside dans la synergie entre les joueurs et leur capacité à faire évoluer ces chiffres en une légende vivante.
+
+Ce guide, structuré pour offrir une vision claire des options officielles et des possibilités de personnalisation, constitue une base solide pour tout aventurier prêt à franchir le seuil d'un donjon. En fin de compte, la fiche de personnage n'est que le point de départ : c'est à travers vos choix, vos échecs et vos coups d'éclat que la véritable aventure commence.\\
+Pour toutes informations complémentaires sur les règles et la progression du personnage, je vous recommande fortement de visiter le site suivant :\par
+https://www.aidedd.org}}
+\vspace*{\vfill}
+\printindex
+\bibliographystyle{abbrv}
+\bibliography{references}
+\end{document}
